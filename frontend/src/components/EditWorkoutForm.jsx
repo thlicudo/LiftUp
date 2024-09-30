@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { FaCheck, FaX } from "react-icons/fa6";
 import { updateWorkout } from "../services/API";
 import { toast } from "react-toastify";
