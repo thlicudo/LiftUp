@@ -23,7 +23,7 @@ const WorkoutCard = ({ workouts, setIsEditOpen, setSelectedWorkout }) => {
         workouts.map((workout) => (
           <div
             key={workout._id}
-            className="shadow_card flex flex-grow items-center rounded-md bg-primary_white p-4 text-primary_black transition-all duration-100 lg:hover:rotate-1"
+            className="shadow_card flex flex-grow items-center rounded-md bg-primary_white p-4 text-primary_black transition-all duration-100 lg:hover:rotate-1 animate-wiggle"
           >
             <div className="flex flex-grow flex-col gap-1">
               <h1 className="text-xl font-bold capitalize text-primary_blue lg:text-2xl">
