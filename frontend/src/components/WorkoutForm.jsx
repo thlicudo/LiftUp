@@ -23,7 +23,9 @@ const WorkoutForm = ({ isOpen }) => {
 
     const workout = { title, reps: Number(reps), day };
 
+    // API CALL TO CREATE WORKOUT
     createWorkout(dispatch, workout);
+
     toast.success(`Workout added for ${day}!`);
     setTitle("");
     setReps("");
@@ -71,7 +73,7 @@ const WorkoutForm = ({ isOpen }) => {
             <select
               id="day"
               name="day"
-              className="w-full flex-grow rounded-md bg-white px-2 py-1 font-normal outline outline-1 lg:w-40"
+              className="w-full flex-grow rounded-md bg-white px-2 py-1 font-normal outline outline-1 focus:outline-2 focus:outline-primary_blue lg:w-40"
               value={day}
               onChange={(e) => setDay(e.target.value)}
             >

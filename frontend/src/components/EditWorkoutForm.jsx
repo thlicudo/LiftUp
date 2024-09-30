@@ -26,20 +26,9 @@ const EditWorkoutForm = ({
       day: e.target.day.value,
     };
 
-    const hasChanges =
-      updatedWorkout.title !== selectedWorkout.title ||
-      updatedWorkout.reps !== selectedWorkout.reps ||
-      updatedWorkout.day !== selectedWorkout.day;
-
-    console.log("Has Changes:", hasChanges);
-
-    if (hasChanges) {
-      updateWorkout(dispatch, updatedWorkout);
-      toast.success("Workout updated!");
-      setIsEditOpen(false);
-    } else {
-      toast.info("No changes were made.");
-    }
+    updateWorkout(dispatch, updatedWorkout);
+    toast.success("Workout updated!");
+    setIsEditOpen(false);
   };
 
   return (
