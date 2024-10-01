@@ -48,6 +48,10 @@ const Home = () => {
         />
       )}
 
+      {isEditOpen && (
+        <div className="absolute top-0 z-40 h-screen w-screen bg-[rgba(0,0,0,.3)]"></div>
+      )}
+
       {/* DAY SELECTION */}
       <DayButtons
         activeButton={activeButton}

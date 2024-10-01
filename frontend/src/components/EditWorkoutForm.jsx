@@ -77,6 +77,21 @@ const EditWorkoutForm = ({
           />
         </div>
         <div className="flex flex-col gap-1">
+          <label htmlFor="reps">Duration (sec)</label>
+          <input
+            type="number"
+            id="duration"
+            value={selectedWorkout.duration}
+            onChange={(e) => {
+              setSelectedWorkout({
+                ...selectedWorkout,
+                duration: e.target.value,
+              });
+            }}
+            className="rounded-md bg-white px-2 py-1 font-normal outline outline-1 focus:outline-2 focus:outline-primary_blue"
+          />
+        </div>
+        <div className="flex flex-col gap-1">
           <label htmlFor="day">Day</label>
           <select
             name="day"

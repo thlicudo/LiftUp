@@ -21,7 +21,7 @@ const DayButtons = ({ activeButton, setActiveButton }) => {
         <button
           key={day}
           onClick={() => handleClick(day)}
-          className={` ${activeButton === day ? "animate-wiggle bg-primary_blue text-primary_white" : "bg-primary_white text-primary_black"} shadow_btn relative overflow-hidden rounded-md px-2 py-1 text-sm font-bold lg:flex-grow lg:text-lg`}
+          className={` ${activeButton === day ? "animate-wiggle bg-primary_blue text-primary_white" : "bg-primary_white text-primary_black"} shadow_btn day_button relative overflow-hidden rounded-md px-2 py-1 text-sm font-bold lg:flex-grow lg:text-lg`}
         >
           <span className="relative z-10">{day}</span>
         </button>
