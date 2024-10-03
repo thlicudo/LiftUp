@@ -1,8 +1,7 @@
-# React + Vite
+# LiftUp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple workout planner with similar features as a To-Do List. 
 
-Currently, two official plugins are available:
+This side project served as my practice for improving my skills in React, Tailwind CSS, and the likes of HTML, CSS, and Javascript. I also applied coding practices I've learned from the tutorials and articles I've found online that helped make this project a lot easier to navigate and read.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hope you like this one! I definitely still have a lot to learn but it was a fun experience making this side project! 
